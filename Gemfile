@@ -28,11 +28,9 @@ gem 'puma', '~> 3.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
-end
-
-# Gemfile
-group :development, :test do
   gem 'rspec-rails', '~> 3.5'
+  gem 'bcrypt', '~> 3.1.7'
+  gem 'jwt'
 end
 
 # Gemfile
